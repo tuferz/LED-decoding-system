@@ -13,7 +13,6 @@ public class Decoder {
         for (int i = 0; i < casos ; i++){
             input[i] = sc.nextLine();
         }
-        System.out.println();
         for (int i = 1; i < casos ; i++){
             System.out.println(reemplazar("Phrase "+i+": "+input[i]));
         }
